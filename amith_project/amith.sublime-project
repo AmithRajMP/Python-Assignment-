@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+	"settings": {
+        // ...
+        "python_interpreter": "/amith/bin/python2.7",
+
+        "python_package_paths": [
+            "$home/.buildout/eggs",
+            "$project_path/addons"
+        ],
+
+         "auto_complete_triggers": 
+         	[{"selector": "source.python", "characters": "."}],
+    }
+}
